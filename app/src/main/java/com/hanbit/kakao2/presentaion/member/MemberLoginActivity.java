@@ -1,6 +1,5 @@
 package com.hanbit.kakao2.presentaion.member;
 
-import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -48,7 +47,7 @@ public class MemberLoginActivity extends AppCompatActivity  implements View.OnCl
                 boolean flag =  service.login(member);
                 if(flag){
                     Toast.makeText(MemberLoginActivity.this,"SUCCESS",Toast.LENGTH_LONG).show();
-                    startActivity(new Intent(MemberLoginActivity.this, ListActivity.class));
+                    startActivity(new Intent(MemberLoginActivity.this, MemberListActivity.class));
                 }else{
                     Toast.makeText(MemberLoginActivity.this,"FAIL",Toast.LENGTH_LONG).show();
                 }

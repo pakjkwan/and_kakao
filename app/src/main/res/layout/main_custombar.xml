@@ -19,7 +19,7 @@
         android:id="@+id/menu_help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="고객센터"
+        android:text="카카오스토리"
         android:textSize="14dp"
         android:paddingRight="20dp"
         android:paddingLeft="20dp"
@@ -42,6 +42,4 @@
         android:layout_toLeftOf="@id/menu_help"
         android:background="#f9e006"
         />
-
-
 </RelativeLayout>

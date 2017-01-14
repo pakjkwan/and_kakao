@@ -95,6 +95,7 @@
             android:layout_height="wrap_content"
             android:text="UPDATE"
             android:textSize="20dp"
+            android:background="@android:color/white"
             android:gravity="center"/>
         <Button
             android:id="@+id/btLogin"
@@ -102,6 +103,7 @@
             android:layout_height="wrap_content"
             android:text="CANCEL"
             android:textSize="20dp"
+            android:background="@android:color/white"
             android:gravity="center"/>
     </LinearLayout>
 </LinearLayout>

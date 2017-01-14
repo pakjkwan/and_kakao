@@ -20,7 +20,6 @@ public class IntroActivity extends AppCompatActivity {
             }
         }, 2000);
     }
-
     @Override
     protected void onStart() {
         super.onStart();
